@@ -11,13 +11,12 @@ Este es el sistema de gestión de usuarios para la plataforma de gestión de fer
 ## Instalación
 
 1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   ```git clone https://github.com/tu-usuario/tu-repositorio.git
    cd tu-repositorio```
 
 2. Crear un entorno virtual e instalar las dependencias:
-   ```python -m venv env
-    ```. env\Scripts\activate.ps1
+   ```python -m venv env```
+    ```. env\Scripts\activate.ps1```
 
 3. Instalar las dependencias:
     ```pip install -r requirements.txt```
@@ -32,17 +31,17 @@ Este es el sistema de gestión de usuarios para la plataforma de gestión de fer
     DATABASE_PORT=3306
 
 5. Aplicar las migraciones:
-    ```python manage.py migrate
+    ```python manage.py migrate```
 
 6. Crear un superusuario en el Admin:
-    ```python manage.py createsuperuser
+    ```python manage.py createsuperuser```
 
 7.Iniciar el servidor de desarrollo:
-    ```python manage.py runserver
+    ```python manage.py runserver```
 
 ## Ejecutar las pruebas
 
-```python manage.py test usuarios
+``` python manage.py test usuarios```
 
 
 ## Características
