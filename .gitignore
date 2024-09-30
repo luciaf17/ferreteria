@@ -1,0 +1,22 @@
+# Ignorar entornos virtuales
+venv/
+env/
+wouchukenv/
+virtualEnvs/
+
+# Ignorar archivos compilados de Python
+*.pyc
+__pycache__/
+
+# Ignorar archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar base de datos SQLite (si la estás usando y no deseas versionarla)
+db.sqlite3
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de configuración locales
+*.env
